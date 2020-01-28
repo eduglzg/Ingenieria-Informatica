@@ -4,13 +4,9 @@
   <br>
 </h1>
 
-<div align="center">
-
 <br>
 
 <p align="left">
-
-</p>
 
 ## Automata de Pila
 
@@ -56,3 +52,4 @@ solve((A,B)):- solve(A), solve(B).
 ```
 solve(A):- clause(A,B), solve(B).
 ```
+</p>
