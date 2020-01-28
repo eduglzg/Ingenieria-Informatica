@@ -47,7 +47,7 @@ solve((A,B)):- solve(A), solve(B).
 
 3. Caso principal: Se intenta resolver la meta A buscando una clausula cuya cabeza unifique con A y en caso de que la clausula tenga cuerpo se resuelve.
 
-* Funcionamiento de clause(A,B): Busca una clausula cuya cabeza unifique con A y almacena su cuerpo en B
+* (Funcionamiento de "clause(A,B)": Busca una clausula cuya cabeza unifique con A y almacena su cuerpo en B)
 
 ```
 solve(A):- clause(A,B), solve(B).
