@@ -10,6 +10,8 @@
 
 <p align="left">
 
+</p>
+
 ## Automata de Pila
 
 Es una maquina de estados con una memoria (Pila). Permite resolver problemas mas complejos que una maquina de estados simple, ya que es posible almacenar datos en la pila(Ej: reconocedores de cadenas del tipo a^n b^n).
@@ -54,4 +56,3 @@ solve((A,B)):- solve(A), solve(B).
 ```
 solve(A):- clause(A,B), solve(B).
 ```
-</p>
